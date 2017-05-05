@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>/po</title>
+  <meta charset="utf-8">
+
+<style>
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: orange;
+  padding: 5px;
+  width: 600px;
+  height: 100px;
+  margin-top: 10px;
+  
+  display: flex;
+  overflow: hidden;
+  outline: 2px solid #666;
+  display: flex;
+}
+
+.data {
+  text-align: center;
+  flex-grow: 1;
+  padding-top: 1em;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.pic {
+  min-width: 100px;
+  width: 100px;
+  margin-right: 10px;
+  outline: 2px solid #666;
+  background-size: auto 100px !important;
+  background-repeat: no-repeat !important;
+}
+
+.green { background: green; }
+</style>
+</head>
+
+
+<body>
+  <ul class="flex-container">
+    <li class="flex-item">
+      <div class="pic" style="background: url(volodin.jpg) -25px 0px;"></div>
+      <div class="data">
+        <div class="title">#НОРМАЛЬНО</div>
+        <div class="description">Создать тред с >100 рейджами </div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(pynia.jpg) -10px 0px;"></div>
+      <div class="data">
+        <div class="title">Ветеран</div>
+        <div class="description">Стать участником пынической войны</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(ramzan-1.jpg) 0px 0px;"></div>
+      <div class="data">
+        <div class="title">Импортозамещение</div>
+        <div class="description">Купить компьютер с процессором "Эльбрус"</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(syr.png) -10px 0px;"></div>
+      <div class="data">
+        <div class="title">Импортозамещение-2</div>
+        <div class="description">Отведать импортозамещённого сыра и выжить</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(gambling-chip.jpg) -15px 0px;"></div>
+      <div class="data">
+        <div class="title">Ловкий малый</div>
+        <div class="description">Собрать 5 поставленных анусов</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(wolf-wall-street.jpg) -50px 0px;"></div>
+      <div class="data">
+        <div class="title">Волк с Уолл-стрит</div>
+        <div class="description">Собрать 25 поставленных анусов</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(dolboeb.jpg) -25px 0px;"></div>
+      <div class="data">
+        <div class="title">Полный долбоеб</div>
+        <div class="description">Создать 10 тредов о ненавистном тебе Навальном</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(zorky-glaz.jpg) 0px 0px;"></div>
+      <div class="data">
+        <div class="title">Зоркий Глаз</div>
+        <div class="description">Обнаружить в треде ольку</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(tlenie.jpg) 0px 0px;"></div>
+      <div class="data">
+        <div class="title">Скрытое тление</div>
+        <div class="description">Отрицать, что тебе бомбануло</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(shtany.jpg) 0px 0px;"></div>
+      <div class="data">
+        <div class="title">Грязные, но родные</div>
+        <div class="description">Быть коммунистом в 2к17</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(redpill.jpg) 0px 0px;"></div>
+      <div class="data">
+        <div class="title">Выбрал красную</div>
+        <div class="description">Сменить политические взгляды под влиянием пораши,<br> с ваты на либераху.</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(bluepill.jpg) -60px 0px;"></div>
+      <div class="data">
+        <div class="title">Погружение в альтернативную реальность</div>
+        <div class="description">Включить Первый канал/REN-TV/RT</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(double-agent.jpg) -40px 0px;"></div>
+      <div class="data">
+        <div class="title">Двойной агент</div>
+        <div class="description">Притвориться "своим" в тредах про Навального,<br> при этом его дискредитируя </div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(two-faced.jpg);"></div>
+      <div class="data">
+        <div class="title">Двуликий</div>
+        <div class="description">Топить одновременно в разных тредах за Путина и либералов</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(pulse.jpg);"></div>
+      <div class="data">
+        <div class="title">Проверьте его пульс</div>
+        <div class="description">Имея РУ-флажок, ни разу не пошутить про хуи и анусы</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(metal.jpg);"></div>
+      <div class="data">
+        <div class="title">Усталость металла</div>
+        <div class="description">Создать не менее трёх тредов про Швятого Машка</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(ancap.jpg) -10px 0px;"></div>
+      <div class="data">
+        <div class="title">Не закон, а распоряжение директора</div>
+        <div class="description">Создать анкап-тред</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(haram.jpg) -30px 0px;"></div>
+      <div class="data">
+        <div class="title">Absolutely haram</div>
+        <div class="description">Кастануть спелл #rep ua.png</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(zapret.jpg) -7px 0px;"></div>
+      <div class="data">
+        <div class="title">Most wanted</div>
+        <div class="description">Запостить запрещённый материал</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(chmo.jpg);"></div>
+      <div class="data">
+        <div class="title">ЧМО</div>
+        <div class="description">Оскорбить Барака Обаму</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(japan.jpg);"></div>
+      <div class="data">
+        <div class="title">Нихон</div>
+        <div class="description">Восхищаться японской культурой</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(cactus.jpg);"></div>
+      <div class="data">
+        <div class="title">Mexico es chido!</div>
+        <div class="description">Запостить реверс-бугурт про США</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(library.jpg);"></div>
+      <div class="data">
+        <div class="title">Александрийская библиотека</div>
+        <div class="description">Проебать /po-пак возрастом более 5 лет</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(benya.jpg);"></div>
+      <div class="data">
+        <div class="title">Двойное гражданство</div>
+        <div class="description">Развести срач в треде из-под проксей РФ и Украины</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(advocat.jpg) -13px 0;"></div>
+      <div class="data">
+        <div class="title">Адвокат дьявола</div>
+        <div class="description">Отстаивать корпоратократию</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(ranger.jpg) -45px 0;"></div>
+      <div class="data">
+        <div class="title">Рейнджер</div>
+        <div class="description">Поставить "RRRAGE!" не менее чем на 100 постов</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(piston.jpg);"></div>
+      <div class="data">
+        <div class="title">Петух - не человек</div>
+        <div class="description">Всбросить гей-копипасту во время срача</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(ololo.jpg) -50px 0;"></div>
+      <div class="data">
+        <div class="title">Ололо, я съебываюсь</div>
+        <div class="description">Перекатиться в другой тред/доску/имиджборду/сайт во время срача</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(cherry-picking.jpg);"></div>
+      <div class="data">
+        <div class="title">Черрипикер</div>
+        <div class="description">Создать тред об уровне жизни в %countryname%, используя тщательно отобранные фото</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(narnia.jpg) -18px 0;"></div>
+      <div class="data">
+        <div class="title">Ветеран Нарнии</div>
+        <div class="description">Сидеть в более чем 100 тредах о Новороссии</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(gurman.jpg) -18px 0;"></div>
+      <div class="data">
+        <div class="title">Непривередливый гурман</div>
+        <div class="description">В тредах про качество/цену еды, твердить, что питаешься как раньше, ни в чем себе не отказывая</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(shrek.jpg) -30px 0;"></div>
+      <div class="data">
+        <div class="title">Шрекофаг</div>
+        <div class="description">Брызнуть зеленкой кому-нибудь в лицо</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(vreti.jpg);"></div>
+      <div class="data">
+        <div class="title">Врёти</div>
+        <div class="description">Доказать оппоненту его неправоту</div>
+      </div>
+    </li>
+
+    <li class="flex-item">
+      <div class="pic" style="background: url(gosdolg.jpg);"></div>
+      <div class="data">
+        <div class="title">19893000000000$</div>
+        <div class="description">Знать точный размер гос. долга США</div>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
